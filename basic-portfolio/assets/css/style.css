@@ -1,0 +1,259 @@
+html{
+	height:100%;
+}
+
+body{
+	padding:0;
+	margin:0;
+	height:100%;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+/*name*/
+
+.yourname{
+	position: absolute;
+	float:left;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-left: 20%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #4aaaa5;
+	padding: 20px 30px;
+	width: 20%;
+}
+
+/*main content container*/
+
+div.background{
+	clear:both;
+	height: 100%;
+	background-color: #dddddd;
+	border-top: 3px solid #aaa2a2;
+	padding-top: 40px;
+	position:relative;
+	overflow: scroll;
+	margin:0px;
+
+}
+
+/*top navigation*/
+
+div.mainmenu a{
+	text-align: justify;
+	margin-right: 20px;
+	font-family: 'Ubuntu Mono', monospace;
+	float: right;
+	padding: 10px 10px 30px 10px;
+	color:gray;
+	text-decoration: none;
+}
+
+.mainmenu a:hover{
+	color: #000000;
+}
+
+img.github :hover{
+	opacity:0.5;
+}
+
+/*contact form for contact.html page*/
+
+div.pbackground{
+	clear:both;
+	background-color: #dddddd;
+	border-top: 3px solid #aaa2a2;
+	padding-top: 40px;
+	position:relative;
+	overflow: none;
+	height:100%;
+	margin:0;
+
+}
+
+/*portfolio section for portfolio.html page*/
+
+div.cbackground {
+    clear: both;
+    background-color: #dddddd;
+    border-top: 3px solid #aaa2a2;
+    padding-top: 40px;
+    height: 100%;
+    position: relative;
+    overflow: scroll;
+    padding-bottom: 20px;
+}
+
+/*main content area*/
+
+div.maincontent{
+	margin-left: 20%;
+	float:left;
+	position: relative;
+	color: #777777;
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: justify;
+	border: 1px solid #eee;
+	background: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	width: 500px;
+	overflow: scroll;
+	padding-right: 30px;
+	margin-bottom: 20px;
+}
+
+
+div.center{
+	float:left;
+	margin-left: 50px;
+}
+
+div.grayline{
+	width:90%;
+	background: #eee;
+	padding:2px;
+	margin:5px;
+}
+
+img{
+	width:30%;
+	float:left;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+div.img{
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+
+p.title{
+	font-family: 'Ubuntu Mono', monospace;
+	text-align: left;
+	font-weight:bold;
+	font-size: 1.5em;
+	color:#4aaaa5;
+}
+
+/*connect section*/
+
+div.connect{
+	float:right;
+	position: relative;
+	color: #777777;
+	border: 1px solid #eee;
+	background: #ffffff;
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 270px;
+}
+
+div.mainmenu{
+	margin-right: 19%;
+}
+
+p.connectwithme{
+	text-align: center;
+	font-weight:bold;
+	font-size: 1.3em;
+	color:#4aaaa5;
+}
+
+div.anothergrayline{
+	width:100%;
+	background: #eee;
+	padding:1px;
+	margin:5px;
+}
+
+/*contact images*/
+
+.center img{
+	padding-left:10px;
+}
+
+img.github{
+	width:20%;
+	margin: 10px;
+	float: left;
+}
+
+img.linkedin{
+	width:20%;
+	margin: 10px;
+	float: left;
+}
+
+img.stackoverflow{
+	width:20%;
+	margin: 10px;
+	float: left;
+}
+
+.images img:hover {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+img:hover {
+    -webkit-filter: none;
+}
+
+
+/*contact form*/
+
+.form{
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	position: relative;
+}
+
+
+.fname{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	width:450px;
+	height:25px;
+}
+
+.email{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	width:450px;
+	height:25px;
+}
+
+.message{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: 1px solid gray;	
+	width:450px;
+	height:50px;
+}
+
+.submit{
+	border: 1px solid gray;	
+	width:453px;
+	height:25px;
+}
+
+footer {
+    font-size: 0.8em;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+    background: #666666;
+    padding: 50px;
+    bottom:0;
+    left: 0;
+    width: 100%;
+}
